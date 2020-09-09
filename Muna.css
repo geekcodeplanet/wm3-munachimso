@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.body {
+  background-image: url('meep.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* font-size: 25px; */
+  background-attachment: fixed;
+  background-position: center;
+}
+.nav {
+  background: rgba(0, 0, 0, 0.178);
+  box-shadow: 5px 5px 50px grey;
+}
+#footer {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  padding: 20px;
+}
+.footer {
+  color: white;
+  background-color: black;
+
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+}
+.navli a {
+  text-decoration: none;
+}
+.nav ol {
+  text-align: right;
+}
+.nav li:hover {
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+  padding: 20px;
+}
+.contact {
+  background-color: blue;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 10rem;
+  right: 10rem;
+}
+.nav a {
+  color: white;
+}
+.active {
+  background-color: black;
+  opacity: 0.5;
+}
+.container {
+  background: rgb(231, 231, 231);
+  height: 90%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+}
+.left img {
+  width: 80%;
+}
+.right {
+  background: white;
+  text-align: center;
+  color: black;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 10px;
+}
+.right form {
+  display: grid;
+}
+.right form input,
+textarea {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.container2 {
+  width: 60%;
+  margin: auto;
+  color: black;
+  line-height: 2;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.Mega {
+  height: 300px;
+  border-radius: 15px;
+  background-color: red;
+  background-image: url(kirby.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.ol {
+  list-style: none;
+}
+.middle {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .left img {
+    width: 50%;
+  }
+  .footer {
+    margin-top: 200px;
+  }
+}
