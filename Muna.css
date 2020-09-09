@@ -70,6 +70,11 @@ body {
   position: absolute;
   bottom: 10rem;
   right: 10rem;
+  border: none;
+}
+.contact:hover {
+  background-color: green;
+  color: white;
 }
 .nav a {
   color: white;
